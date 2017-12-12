@@ -10,39 +10,40 @@
     <form action="https://formspree.io/djconie@gmail.com" method="post">
         <!--   imie    -->
         <label for="name">Imie: </label>
-        <input type="text" id="name">
+        <input type="text" id="name" name="Imie"><br>
         <!--     nazwisko   -->
         <label for="surname">Nazwisko: </label>
-        <input type="text" id="surname">
+        <input type="text" id="surname" name="Nazwisko"><br>
         <!--    mail    -->
         <label for="mail">Adres E-mail:</label>
-        <input type="email" id="mail">
+        <input type="email" id="mail" name="Email"><br>
         <!--    telefon    -->
         <label for="phone-number">Numer Telefonu:</label>
-        <input type="text" id="phone-number">
-        <!--     wybór miasta  -->
+        <input type="tel" id="phone-number" name="Numer Telefonu"><br>
+        <!--             wybór miasta  -->
         <label for="miasta">Wybierz miasto:</label>
-        <select name="miasta" id="miasta">
+        <select name="miasta" id="miasta" name="Miasto">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
-        </select>
+        </select><br>
         <!--    płeć    -->
         <p>Wybierz płeć:</p>
-        <input type="radio" id="woman">
+        <input type="radio" id="woman" name="Płeć">
         <label for="woman">Kobieta</label>
-        <input type="radio" id="man">
-        <label for="man">Mężczyzna</label>
+        <input type="radio" id="man" name="Płeć">
+        <label for="man">Mężczyzna</label><br>
         <!--   Zgoda na dane osobowe    -->
-        <label for="yes">Czy zgadzasz się na przetwarzanie danych osobowych?</label>
-        <input type="checkbox" id="yes">
+        <label for="yes">Czy zgadzasz się na przetwarzanie danych osobowych?</label><br>
+        <input type="checkbox" id="yes" name="Zgoda">
         <label for="yes">Tak</label>
-        <input type="checkbox" id="no">
-        <label for="no">Nie</label>
+        <input type="checkbox" id="no" name="Zgoda">
+        <label for="no">Nie</label><br>
         <!--    wiadomość    -->
         <label for="message">Zgłoszenie:</label>
-        <textarea id="message"></textarea>
-
+        <textarea id="message" name="message"></textarea><br><br>
+        <!--   wyślij     -->
+        <input type="submit" value="Wyślij Zgłoszenie">
     </form>
 </body>
 
