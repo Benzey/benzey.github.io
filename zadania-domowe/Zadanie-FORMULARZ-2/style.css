@@ -1,0 +1,18 @@
+form{
+    width:700px;
+}
+#customer-field input{
+    width:300px;
+}
+#customer-field label{
+    margin-left:50px;
+}
+#books-field select{
+    width:300px;
+}
+#books-field input{
+    width:150px;
+}
+#books-field select{
+    margin-left:50px;
+}

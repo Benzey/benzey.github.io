@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="https://formspree.io/djconie@gmail.com" method="POST" autocomplete="on">
+        <fieldset id="customer-field">
+        <legend>Customer Info</legend>
+        
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" autofocus required><br><br>
+        
+        
+        <label for="phone">Telephone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Pattern: 1-234-567-8910" required><br><br>
+        
+        
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required multiple>
+        
+        
+        </fieldset>
+        <fieldset id="books-field"> 
+        <legend>Books</legend>
+        <select name="book">
+        <option></option><!--   specjalnie zeby bylo puste jak na zdjęciu ;)     -->
+		<option>Ostatnie życzenie</option>
+		<option>Krew elfów</option>
+		<option>Chrzest ognia</option>
+		<option>Wieża Jaskółki</option>
+        <option>Sezon burz</option>
+	</select>
+       
+       
+        <label for="quantity">Quantity (Maximum 5):</label>
+        <input type="number" min="1" max="5" id="quantity">
+        </fieldset>
+        
+        
+        <input name="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
